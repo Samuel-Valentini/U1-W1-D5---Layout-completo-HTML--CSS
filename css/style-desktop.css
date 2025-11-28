@@ -120,8 +120,9 @@ hr {
 
 aside {
   display: table;
-  width: 100%;
+  width: 90%;
   border-spacing: 2em;
+  margin-inline: auto;
 }
 
 .titlebar {
@@ -176,7 +177,8 @@ aside {
 }
 
 .boxes div img {
-  aspect-ratio: 16/10;
+  aspect-ratio: 16/12;
+  /* modificato da 16/10 */
   object-fit: cover;
 }
 
