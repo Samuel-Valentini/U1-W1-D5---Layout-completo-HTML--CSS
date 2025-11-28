@@ -23,9 +23,6 @@ body {
   font-size: 1.2rem;
   font-family: "Open Sans", sans-serif;
   line-height: 1.65;
-  border-color: #dee1e3;
-  border-width: 0px;
-  border-style: solid;
   text-align: center;
 }
 
@@ -142,4 +139,25 @@ footer a {
   font-size: 1em;
   padding-top: 0;
   padding-bottom: 2.5em;
+}
+
+.boxes div {
+  margin-inline: 2em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dee1e3;
+  border-radius: 4px;
+}
+
+.boxes div:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+.boxes img {
+  width: 100%;
+  padding-bottom: 0.4em;
+}
+
+.boxes {
+  padding-block: 4em;
 }
