@@ -84,6 +84,15 @@ p {
   padding-block: 1em;
 }
 
+cite {
+  font-size: 1.4em;
+}
+
+blockquote p {
+  font-style: italic;
+  padding-block: 2em;
+}
+
 footer {
   color: #c8e7f0;
   background-color: #25a2c3;
@@ -117,4 +126,20 @@ footer a {
 
 .testimonials {
   background-color: #e22d0e;
+  color: white;
+}
+
+.testimonials h2 {
+  color: white;
+  font-size: 2em;
+  padding-inline: 1em;
+  padding-top: 2em;
+  line-height: 1;
+}
+
+.role {
+  font-style: normal;
+  font-size: 1em;
+  padding-top: 0;
+  padding-bottom: 2.5em;
 }
