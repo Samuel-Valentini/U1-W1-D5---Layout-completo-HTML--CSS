@@ -26,6 +26,7 @@ body {
   border-color: #dee1e3;
   border-width: 0px;
   border-style: solid;
+  text-align: center;
 }
 
 h1,
@@ -45,6 +46,11 @@ h1 {
   padding-inline: 1em;
   padding-top: 1.5em;
   line-height: 1;
+}
+
+h2 {
+  font-size: 1.2em;
+  padding-top: 0.4em;
 }
 
 button {
@@ -97,11 +103,16 @@ footer a {
 }
 
 .titlebar {
-  text-align: center;
   background-image: url(../images/banner.jpg);
   background-size: cover;
   background-position: center;
-  /* height: 500px; */
+  margin-bottom: 3em;
+}
+
+.roundimg {
+  padding-inline: 3.5em;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .testimonials {
