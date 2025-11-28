@@ -51,9 +51,10 @@ button {
 }
 header {
   background-color: black;
-  text-align: center;
-  padding-top: 1.95em;
-  padding-bottom: 2.45em;
+  text-align: left;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-inline: 3em;
 }
 
 header img {
@@ -86,7 +87,7 @@ footer {
 
 footer h2 {
   color: white;
-  font-size: 2em;
+  font-size: 2.7em;
   padding-inline: 1em;
   padding-top: 1.5em;
   line-height: 1;
@@ -99,35 +100,45 @@ footer a {
 footer ul {
   padding-top: 1.7em;
   padding-bottom: 1.5em;
+  text-align: left;
+  list-style-type: none;
 }
 
 footer p {
   font-size: 0.85em;
 }
 
+footer div {
+  width: 285px;
+  margin-inline: auto;
+}
+
 hr {
-  width: 42%;
+  width: 100%;
   opacity: 60%;
 }
 
 .titlebar {
   background-image: url(../images/banner.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   margin-bottom: 3em;
+  padding-top: 7em;
+  padding-bottom: 5em;
+  padding-inline: 17em;
 }
 
 .roundimg {
-  padding-inline: 3.5em;
-  width: 100%;
+  padding-block: auto;
+  width: 80%;
   border-radius: 50%;
-  margin-bottom: 1.2em;
 }
 
 .testimonials {
   background-color: #e22d0e;
   color: white;
   margin-top: 3.3em;
+  padding-bottom: 2em;
 }
 
 .testimonials h2 {
@@ -152,6 +163,8 @@ hr {
   border-color: #dee1e3;
   border-radius: 5px;
   padding-bottom: 1.4em;
+  display: inline-block;
+  width: 27%;
 }
 
 .boxes div:not(:last-child) {
@@ -174,4 +187,22 @@ hr {
 
 .fas {
   color: white;
+}
+
+#promisessection {
+  padding-block: 4em;
+}
+
+#promisessection div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+}
+
+#promisessection div:last-child {
+  text-align: left;
+}
+
+#promisessection div:last-child p {
+  padding-left: 0;
 }
