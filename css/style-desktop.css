@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.4em;
+  padding-inline: 1em;
+  padding-top: 1.5em;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.2em;
+  padding-top: 0.4em;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: white;
+  padding-block: 1em;
+  padding-inline: 1.5em;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-bottom: 2.5em;
+  margin-top: 1em;
+}
+header {
+  background-color: black;
+  text-align: center;
+  padding-top: 1.95em;
+  padding-bottom: 2.45em;
+}
+
+header img {
+  width: 170px;
+}
+
+p {
+  padding-inline: 1.9em;
+  font-size: 1.2em;
+  padding-block: 1em;
+}
+
+cite {
+  font-size: 1.3em;
+}
+
+blockquote p {
+  font-style: italic;
+  padding-top: 2em;
+  padding-bottom: 1.8em;
+  padding-inline: 1em;
+  font-size: 1.1em;
+}
+
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+  padding-bottom: 3.4em;
+}
+
+footer h2 {
+  color: white;
+  font-size: 2em;
+  padding-inline: 1em;
+  padding-top: 1.5em;
+  line-height: 1;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer ul {
+  padding-top: 1.7em;
+  padding-bottom: 1.5em;
+}
+
+footer p {
+  font-size: 0.85em;
+}
+
+hr {
+  width: 42%;
+  opacity: 60%;
+}
+
+.titlebar {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3em;
+}
+
+.roundimg {
+  padding-inline: 3.5em;
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1.2em;
+}
+
+.testimonials {
+  background-color: #e22d0e;
+  color: white;
+  margin-top: 3.3em;
+}
+
+.testimonials h2 {
+  color: white;
+  font-size: 2em;
+  padding-inline: 1em;
+  padding-top: 2em;
+  line-height: 1;
+}
+
+.role {
+  font-style: normal;
+  font-size: 0.9em;
+  padding-top: 0;
+  padding-bottom: 2.5em;
+}
+
+.boxes div {
+  margin-inline: 2em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dee1e3;
+  border-radius: 5px;
+  padding-bottom: 1.4em;
+}
+
+.boxes div:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+.boxes img {
+  width: 100%;
+  padding-bottom: 0.4em;
+}
+
+.boxes {
+  padding-block: 4em;
+}
+
+.boxes p {
+  font-size: 1em;
+  padding-inline: 1.7em;
+}
+
+.fas {
+  color: white;
+}
